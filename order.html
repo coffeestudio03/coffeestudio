@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Order Page</title>
+    <link rel="stylesheet" href="order.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1>Order Form</h1>
+      <form action="order address.html">
+        <div class="item">
+          <h2>Item 1</h2>
+          <img src="thumb1.png" alt="Item 1">
+          <p>$19.99</p>
+          <label for="item1-quantity">Quantity:</label>
+          <input type="number" name="item1-quantity" id="item1-quantity" min="1" max="10">
+        </div>
+        <div class="item">
+          <h2>Item 2</h2>
+          <img src="thumb2.png" alt="Item 2">
+          <p>$29.99</p>
+          <label for="item2-quantity">Quantity:</label>
+          <input type="number" name="item2-quantity" id="item2-quantity" min="1" max="10">
+        </div>
+        <input type="submit" value="Place Order">
+      </form>
+    </div>
+  </body>
+</html>
